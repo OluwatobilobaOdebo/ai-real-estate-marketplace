@@ -16,8 +16,15 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Haven Estate | AI-Powered Real Estate Marketplace",
-  description: "Discover exceptional properties with intelligent listing assistance. Haven Estate combines premium real estate with AI technology to help agents create compelling listings.",
-  keywords: ["real estate", "property marketplace", "AI listings", "home buying", "property listings"],
+  description:
+    "Discover exceptional properties with intelligent listing assistance. Haven Estate combines premium real estate with AI technology to help agents create compelling listings.",
+  keywords: [
+    "real estate",
+    "property marketplace",
+    "AI listings",
+    "home buying",
+    "property listings",
+  ],
 };
 
 export default function RootLayout({
@@ -27,9 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${cormorant.variable} ${dmSans.variable} antialiased`}
-      >
+      <body className={`${cormorant.variable} ${dmSans.variable} antialiased`}>
         {children}
         <Footer />
       </body>
@@ -45,16 +50,23 @@ function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded bg-stone-800">
-              <span className="font-display text-lg font-semibold text-white">H</span>
+              <span className="font-display text-lg font-semibold text-white">
+                H
+              </span>
             </div>
-            <span className="font-display text-xl font-semibold text-stone-800">Haven Estate</span>
+            <span className="font-display text-xl font-semibold text-stone-800">
+              Haven Estate
+            </span>
           </div>
 
           {/* Built with */}
           <div className="flex flex-col items-center gap-1 text-center text-sm text-stone-500">
-            <p>Built with Next.js, Tailwind CSS, Prisma, and OpenAI</p>
+            <p>Built with Next.js, Tailwind CSS, Prisma, and OpenAI API</p>
             <p className="text-stone-400">
-              Crafted by <span className="font-medium text-stone-600">Oluwatobiloba Odebo</span>
+              Crafted by{" "}
+              <span className="font-medium text-stone-600">
+                Oluwatobiloba Odebo
+              </span>
             </p>
           </div>
 
