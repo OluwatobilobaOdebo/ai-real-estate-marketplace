@@ -1,5 +1,9 @@
 # AI-Powered Real Estate Marketplace
 
+A full-stack real estate listing platform built with Next.js 14 (App Router), Prisma + Neon Postgres, and OpenAI API for AI-assisted property descriptions, marketing copy, and inquiry replies.
+
+This project showcases a modern, production-grade full-stack architecture with advanced frontend UX, serverless API routes, database modeling, and real AI automation features suitable for a professional portfolio.
+
 ---
 
 ## Features
