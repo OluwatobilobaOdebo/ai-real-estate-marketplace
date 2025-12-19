@@ -1,4 +1,4 @@
-# AI-Powered Real Estate Marketplace
+# AI-Powered Real Estate Marketplace (Haven Estate)
 
 A full-stack real estate listing platform built with Next.js 14 (App Router), Prisma + Neon Postgres, and OpenAI API for AI-assisted property descriptions, marketing copy, and inquiry replies.
 
